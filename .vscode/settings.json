@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.in": "cpp",
+        "*.out": "cpp",
+        "beam2d_1.C": "cpp",
+        "chrono": "cpp"
+    }
+}
