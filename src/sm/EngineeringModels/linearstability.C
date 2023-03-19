@@ -239,8 +239,8 @@ void LinearStability :: solveYourselfAt(TimeStep *tStep)
                    EModelDefaultEquationNumbering(), this->giveDomain(1) );
     initialStressMatrix->times(-1.0);
 
-    // stiffnessMatrix->writeToFile("matrixStiff.out");
-    // initialStressMatrix->writeToFile("matrixInitial.out");
+    stiffnessMatrix->writeToFile("matrixStiff.out");
+    initialStressMatrix->writeToFile("matrixInitial.out");
 
     FloatMatrix eigVec(neq, numberOfRequiredEigenValues);
     eigVal.resize(numberOfRequiredEigenValues);
