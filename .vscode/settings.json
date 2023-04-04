@@ -3,6 +3,20 @@
         "*.in": "cpp",
         "*.out": "cpp",
         "beam2d_1.C": "cpp",
-        "chrono": "cpp"
+        "chrono": "cpp",
+        "linearstability.C": "cpp",
+        "linearstatic.C": "cpp",
+        "hexgrid.C": "cpp",
+        "primvarmapper.C": "cpp",
+        "floatmatrix.C": "cpp",
+        "dream3d_analysis.C": "cpp",
+        "dynamicdatareader.C": "cpp",
+        "nrsolver.C": "cpp",
+        "petscsparsemtrx.C": "cpp",
+        "prescribedgradientbcweak.C": "cpp",
+        "skyline.C": "cpp",
+        "huertaerrorestimator.C": "cpp",
+        "spoolessolver.C": "cpp",
+        "shell7base.C": "cpp"
     }
 }

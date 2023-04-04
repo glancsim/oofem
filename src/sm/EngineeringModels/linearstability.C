@@ -249,6 +249,8 @@ void LinearStability :: solveYourselfAt(TimeStep *tStep)
     OOFEM_LOG_INFO("Solving ...\n");
     nMethod->solve(*stiffnessMatrix, *initialStressMatrix, eigVal, eigVec, rtolv, numberOfRequiredEigenValues);
     this->field->updateAll(eigVec, EModelDefaultEquationNumbering());
+
+    eigVec.writeCSV("eigVec.out");
 }
 
 
